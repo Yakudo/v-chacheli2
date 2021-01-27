@@ -10,7 +10,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .chacheli-layout {
 	height: 100%;
 	flex: 1 1 auto;

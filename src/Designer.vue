@@ -5,7 +5,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .chacheli-designer {
 	flex: 1 1 auto;
 	display: flex;

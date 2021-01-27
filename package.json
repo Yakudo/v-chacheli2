@@ -23,17 +23,17 @@
     "build:example": "node build/build.js",
     "lint": "eslint --ext .js,.vue src"
   },
-	"keywords": [
-		"dashboard",
-		"fancy",
-		"layout designer",
-		"vue"
-	],
+  "keywords": [
+    "dashboard",
+    "fancy",
+    "layout designer",
+    "vue"
+  ],
   "homepage": "https://gitlab.com/shellyBits/v-chacheli",
   "bugs": "https://gitlab.com/shellyBits/v-chacheli/issues",
   "repository": {
-     "type": "git",
-     "url": "https://gitlab.com/shellyBits/v-chacheli.git"
+    "type": "git",
+    "url": "https://gitlab.com/shellyBits/v-chacheli.git"
   },
   "dependencies": {
     "vue": "^2.3.3"

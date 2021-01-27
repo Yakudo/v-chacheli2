@@ -11,7 +11,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .chacheli-chooser {
 	padding: 0 10px;
 	border-left: 1px solid #bbb;

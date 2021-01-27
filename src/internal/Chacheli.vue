@@ -6,7 +6,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .chacheli-designer-layout {
 	.chacheli {
 		padding: 5px;

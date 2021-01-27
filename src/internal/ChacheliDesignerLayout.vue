@@ -6,7 +6,7 @@
 					:key="r + '-' + c"
 					:class="{ right: c == layout.cols, bottom: r == layout.rows}"
 					:style="{ top: ((r - 1) * units.v) + '%', left: ((c - 1) * units.h) + '%', width: units.h + '%', height: units.v + '%'}">
-					{{ (c - 1) }}, {{ (r - 1) }}
+					<slot :x="c - 1" :y="r - 1"></slot>
 				</div>
 			</template>
 		</template>
@@ -19,7 +19,7 @@
 	</div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .chacheli-designer-layout {
 	flex: 1 1 auto;
 	position: relative;
