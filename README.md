@@ -7,7 +7,24 @@ A Vue.js component to create and display custom dashboard-like grid layouts.
 
 ## Getting started
 
-### Development
+### Demo
+
+See `example` for a minimal app using the designer and the layout components.
+
+[Online demo](https://shellybits.gitlab.io/v-chacheli/)
+
+### Installation
+
+```js
+  import VueCacheli2 from 'VueCacheli2' from 'vue-chacheli2
+  Vue.use(VueCacheli2);
+```
+
+## Documentation
+
+Soon-ish...meanwhile have a look at the example app.
+
+## Development
 
   * Install dependencies
 
@@ -26,19 +43,6 @@ A Vue.js component to create and display custom dashboard-like grid layouts.
 	```
 	$ yarn run build
 	```
-
-
-### Usage
-
-See `example` for a minimal app using the designer and the layout components.
-
-[Online demo](https://shellybits.gitlab.io/v-chacheli/)
-
-
-## Documentation
-
-Soon-ish...meanwhile have a look at the example app.
-
 
 ## License
 

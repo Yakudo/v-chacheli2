@@ -5,3 +5,10 @@ export {
 	ChacheliDesigner,
 	ChacheliLayout
 }
+
+export default {
+  install(Vue, options) {
+    Vue.component(ChacheliDesigner);
+    Vue.component(ChacheliLayout);
+  }
+}
