@@ -1,5 +1,4 @@
 /node_modules/
-/dist/
 /public/
 /yarn-debug.log*
 /yarn-error.log*
